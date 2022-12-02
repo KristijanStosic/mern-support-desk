@@ -12,11 +12,12 @@ JWT_SECRET = super_sercret_key_123
 JWT_LIFETIME = 7d
 ```
 
-### Install Dependencies (root & frontend)
+### Install Dependencies (backend & frontend)
 
 ```
+npm install 
+cd frontend and than run:
 npm install
-cd frontend and run npm install
 ```
 
 ### Run
@@ -27,9 +28,10 @@ position in root and than run next command:
 npm run server
 
 # Run frontend (:3000)
-cd frontend and than run next command: npm start
+cd frontend and than run next command: 
+npm start
 
-# Run both backend & frontend:
+# Run both backend & frontend at the same time:
 position in root and run:
 npm run dev
 ```
